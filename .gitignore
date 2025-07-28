@@ -25,6 +25,7 @@ yarn-error.log*
 .idea/
 dist/
 storybook-static/
+documentation/
 
 *storybook.log
 .tsbuildinfo

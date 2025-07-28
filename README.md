@@ -57,6 +57,10 @@ function App() {
 export default App;
 ```
 
+## Full Docs
+
+For full docs see [here](https://kiberon-labs.github.io/react-tech-radar/documentation)
+
 ## Props Setup
 
 The following 3 props should be configured in order to setup the tech radar:

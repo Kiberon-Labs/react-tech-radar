@@ -39,6 +39,10 @@ jobs:
 
       - name: Build Storybook
         run: pnpm run build-storybook
+      - name: Build the Typedocs
+        run: npx typedoc
+      - name: Move directory
+        run: mv documentation storybook-static/
 
       # Runs a set of commands using the runners shell
       - name: Upload static files as artifact
