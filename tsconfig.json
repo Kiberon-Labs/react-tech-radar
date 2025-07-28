@@ -1,0 +1,20 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@kiberon-labs/config/tsconfig.json",
+	"compilerOptions": {
+		"outDir": "dist",
+		"rootDir": "src",
+		"incremental": true,
+		"jsx": "react-jsx",
+		"types": ["react"],
+		"tsBuildInfoFile": ".tsbuildinfo",
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"moduleResolution": "NodeNext",
+		"module": "NodeNext"
+	},
+	"include": ["src/**/*", "tests/App.test.tsx", "tests/stories"],
+	"exclude": ["node_modules", "dist", "tests"]
+}

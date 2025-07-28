@@ -1,23 +1,26 @@
 
-<img width="600px" src="https://raw.githubusercontent.com/omerg/react-tech-radar/master/screenshots/Screenshot_1.png">
+<img width="600px" src="https://raw.githubusercontent.com/kiberon-labs/react-tech-radar/master/screenshots/Screenshot_1.png">
 
 # React Tech Radar
 
 A react component that generates an interactive radar, inspired by [thoughtworks.com/radar](http://thoughtworks.com/radar).
 
-[Demo (Storybook)](https://react-tech-radar.netlify.com/?path=/story/basics--with-data-from-google-spreadsheet)
+ESM and Typescript ready
+
 
 ## Installation
 
 Using [npm](https://www.npmjs.com/):
 
-    npm install --save react-tech-radar
+```sh
+npm install --save @kiberon-labs/react-tech-radar
+```
 
 ## Quick Start
 
 ```jsx
 import React from 'react';
-import Radar from 'react-tech-radar';
+import Radar from '@kiberon-labs/react-tech-radar';
 
 function App() {
 
@@ -145,23 +148,8 @@ Radar.propTypes = {
 
 ## Storybook
 
-You can see various states of the radar (such as color schemes, results of configurations, etc.) on the [Storybook Page](https://react-tech-radar.netlify.com).
+You can see various states of the radar (such as color schemes, results of configurations, etc.) on the [Storybook Page]( https://kiberon-labs.github.io/react-tech-radar).
 
-## Google SpreadSheets Integration
-
-If you want a very quick data integration, you can check out the Google Spreadsheets example.
-
-The source code for the example is in 'examples' folder and also there is a running example in [Storybook](https://react-tech-radar.netlify.com).
-
-If you plug in [this data](https://docs.google.com/spreadsheets/d/1XkfUX8auztSkMoHwBEraDjHZgx7NEH59OyUZH-0IQGw/edit) you'll see [this visualization](https://react-tech-radar.netlify.com/?path=/story/basics--with-data-from-google-spreadsheet)
-
-#### Sharing the sheet
-
- - In Google sheets, go to 'File', choose 'Publish to the web...' and then click 'Publish'.
- - Close the 'Publish to the web' dialog.
- - Copy the URL of your editable sheet from the browser (Don't worry, this does not share the editable version).
-
-The URL will be similar to https://docs.google.com/spreadsheets/d/1waDG0_W3-yNiAaUfxcZhTKvl7AUCgXwQw8mdPjCz86U/edit. In theory we are only interested in the part between '/d/' and '/edit' but you can use the whole URL if you want.
 ## License
 
 [MIT](./LICENSE)
