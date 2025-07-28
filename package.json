@@ -59,6 +59,7 @@
 		]
 	},
 	"devDependencies": {
+		"@changesets/cli": "^2.29.5",
 		"@kiberon-labs/config": "^2.0.0",
 		"@storybook/addon-docs": "9.0.18",
 		"@storybook/addon-onboarding": "9.0.18",
