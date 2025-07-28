@@ -23,6 +23,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -34,7 +39,7 @@ jobs:
 
       - name: Build Storybook
         run: pnpm run build-storybook
-        
+
       # Runs a set of commands using the runners shell
       - name: Upload static files as artifact
         id: deployment
