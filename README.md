@@ -148,7 +148,7 @@ Radar.propTypes = {
 
 ## Storybook
 
-You can see various states of the radar (such as color schemes, results of configurations, etc.) on the [Storybook Page]( https://kiberon-labs.github.io/react-tech-radar).
+You can see various states of the radar (such as color schemes, results of configurations, etc.) on the [Storybook Page](https://kiberon-labs.github.io/react-tech-radar/).
 
 ## License
 

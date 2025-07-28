@@ -35,7 +35,7 @@
 	},
 	"scripts": {
 		"changeset": "changeset",
-		"release": "npm run build",
+		"release": "npm run build && changeset publish",
 		"build": "tsc -p tsconfig.prod.json",
 		"build:clean": "rimraf dist && tsc",
 		"dev": "tsc --incremental --watch",
